@@ -75,7 +75,7 @@ func (m *Manager) WaitTimeout() {
 }
 
 func (m *Manager) Wait() {
-	time.Sleep(time.Minute * 2)
+	time.Sleep(time.Second * 20)
 }
 
 func (m *Manager) Close() {
